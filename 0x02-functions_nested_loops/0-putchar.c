@@ -1,11 +1,21 @@
-#include <stdio.h>
-/* .C Main For ALX Students Provided with Betty style */
+#include "main.h"
+
 /**
-* main - Entry point
-* Description: Provided Description
-* Return: 0 (Success)
-*/
+ * main - function
+ * Return: 0
+ */
+
 int main(void)
 {
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+
 }

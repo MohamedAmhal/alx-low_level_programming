@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <unistd.h>
+#include	"main.h"
 /* .C Main For ALX Students Provided with Betty style */
 /**
- * main - Entry point
- * Description: Provided Description
- * Return: 0 (Success)
- */
-int main(void)
+* main - Entry point
+* Description: Provided Description
+* Return: 0 (Success)
+*/
+int _putchar(char x)
 {
-	return (0);
+return (write(1, &x, 1));
 }
