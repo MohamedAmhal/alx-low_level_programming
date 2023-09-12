@@ -1,1 +1,1 @@
-this the first day in the c programming 
+the third file readme
