@@ -1,12 +1,8 @@
 #include "main.h"
 
 /**
-* the fuction -alphabet print the alphabet in lowercase !!
-*
-* print-aiphabet is fcuntion print the alphabet of english
-*
-* retun 0 in success program and 1 in errer program
-*/
+ * print_alphabet - print all alphabet in lowercase
+ */
 
 void print_alphabet(void)
 {
