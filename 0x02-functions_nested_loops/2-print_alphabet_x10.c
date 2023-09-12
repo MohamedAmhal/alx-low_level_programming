@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10 - print the alphabest 10 times
-*
-* Return: the function return 0 if that succuss
-*/
+ * print_alphabet_x10 - print the alphabest 10 times
+ * Return: void here
+ */
 
 void print_alphabet_x10(void)
 {
+	char c;
+	int i = 0;
 
-char u;
-int i;
-
-for (i = 0; i < 10; i++)
+		while (i <= 9)
 {
-for (u = 'a'; u <= 'z'; u++)
-{
-_putchar(u);
-_putchar('\n');
-}
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+			_putchar('\n');
+			i++;
+		}
 }
