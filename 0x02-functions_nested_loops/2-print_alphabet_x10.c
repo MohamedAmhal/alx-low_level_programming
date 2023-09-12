@@ -14,9 +14,9 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-for (c	= 'a'; u <= 'z'; u++)
+for (u = 'a'; u <= 'z'; u++)
 {
-_putchar(c);
+_putchar(u);
 }
 _putchar('\n');
 }
