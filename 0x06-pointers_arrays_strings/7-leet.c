@@ -1,33 +1,24 @@
 #include "main.h"
-
 /**
-* leet - this function converte the alphabet in numbers
-* @n:thid varible is storted
-* Return:void
-*/
+ * leet - encode into 1337speak
+ * @n: input value
+ * Return: n value
+ */
 char *leet(char *n)
 {
-int i = 0;
-int j;
+	int i, j;
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-while (n[i] != '\0')
-{
-i++;
-}
-for (j = 0; j < i; j++)
-{
-if (n[j] == 'a' || n[j] == 'A')
-n[j] = '4';
-else if (n[j] == 'e' || n[j] == 'E')
-n[j] = '3';
-else if (n[j] == 'o' || n[j] == 'O')
-n[j] = '0';
-else if (n[j] == 't' || n[j] == 'T')
-n[j] = '7';
-else if (n[j] == 'l' || n[j] == 'L')
-n[j] = '1';
-else
-continue;
-}
-return (n);
+	for (i = 0; n[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (n[i] == s1[j])
+			{
+				n[i] = s2[j];
+			}
+		}
+	}
+	return (n);
 }
