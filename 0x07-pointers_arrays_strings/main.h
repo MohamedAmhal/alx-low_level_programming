@@ -12,6 +12,7 @@ char *_strstr(char *haystack, char *needle);
 int indice(char *haystack, char *needle);
 int _putchar(char x);
 void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 
 
 #endif
