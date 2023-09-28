@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * strlen - fkfnfkfn
+ * strllen - fkfnfkfn
  * @s:fjfjfkd
  * Return:fjffdd
  */
