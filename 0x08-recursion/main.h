@@ -16,6 +16,7 @@ int division(int n, int i);
 int is_palindrome(char *s);
 int strllen(char *s);
 int para(char *s, int i, int z);
+int wildcmp(char *s1, char *s2);
 
 
 #endif
