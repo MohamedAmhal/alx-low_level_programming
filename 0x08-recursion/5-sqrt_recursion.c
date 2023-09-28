@@ -3,8 +3,6 @@
 /**
 *	_sqrt_recursion - this is a function sqrt
 *	@n:the variable
-*	@i:the fast variable
-*	fastsqrt - the function fast
 *	Return: int
 */
 
@@ -14,6 +12,13 @@ if (n < 0)
 return (-1);
 return (fastsqrt(n, 0));
 }
+
+/**
+ * fastsqrt - the function fast
+ * @n:xjdbsdj
+ * @i:dndkdndlsns
+ * Return: int
+ */
 
 
 int fastsqrt(int n, int i)
