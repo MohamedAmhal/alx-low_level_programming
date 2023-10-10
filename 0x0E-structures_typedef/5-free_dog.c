@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
+ * free_dog - this is the function
  * dog_t - this the structure
  * @d: the parameter
- * free_dog - the parameters
  * Return: nothing void func
  */
 
