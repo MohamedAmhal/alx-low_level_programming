@@ -3,10 +3,10 @@
 #include <stdarg.h>
 
 /**
- * print_strings - 
- * @separator:
- * @n: 
- * @...: 
+ * print_strings - ffffffffffffffffffffffffff
+ * @separator: fffffffffffffffffffffffff
+ * @n:fffffffffffffffffffffffffffffffffff
+ * @...:fffffffffffffffffffffffffffffffffffffffffffffffff
  *
  * Description: If separator is NULL, it is not printed.
  *              If one of the strings if NULL, (nil) is printed instead.
