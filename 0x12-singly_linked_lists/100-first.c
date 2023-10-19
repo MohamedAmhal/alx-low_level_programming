@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void first(void) __attribute__ ((constructor));
 /**
  * first - this is a function print before the main function
  * Return: nothing
