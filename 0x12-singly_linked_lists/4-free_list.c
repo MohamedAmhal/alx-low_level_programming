@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
+void first(void) __attribute__ ((constructor));
 /**
  * free_list - this is a function that free memory
  * @head: the header
