@@ -2,6 +2,7 @@
 
 /**
  * get_endianness - this is a function
+ * Return: thevalue
  */
 
 int get_endianness(void)
