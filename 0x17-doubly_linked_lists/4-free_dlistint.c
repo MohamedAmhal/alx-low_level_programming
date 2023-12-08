@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_dlistint - 
- * @head: 
+ * free_dlistint - jfkfnfkfnc;f
+ * @head: dhdkndfff
  * Return: void
  **/
 void free_dlistint(dlistint_t *head)
