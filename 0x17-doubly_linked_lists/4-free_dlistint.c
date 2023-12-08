@@ -1,27 +1,19 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - the nodes of all element
- * @head: the head
- * @index: indexing
- * Return: null
+ * free_dlistint - 
+ * @head: 
+ * Return: void
  **/
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+void free_dlistint(dlistint_t *head)
 {
-	unsigned int size;
-	dlistint_t *tmp;
-
-	size = 0;
 	if (head == NULL)
-	return (NULL);
+	return;
 
-	tmp = head;
-	while (tmp)
+	while (head->next)
 	{
-	if (index == size)
-	return (tmp);
-	size++;
-	tmp = tmp->next;
+	head = head->next;
+	free(head->prev);
 	}
-	return (NULL);
+	free(head);
 }
